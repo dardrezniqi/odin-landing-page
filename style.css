@@ -1,0 +1,155 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER */
+header {
+    background: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 200px;
+    align-items: center;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav a {
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+/* HERO */
+.hero {
+    background: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 200px;
+    gap: 40px;
+}
+
+.hero-content {
+    max-width: 500px;
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.hero p {
+    margin: 15px 0;
+    color: #E5E7EB;
+}
+
+.hero button {
+    background: #3882F6;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+/* FIX FOR IMAGE DISPLAY */
+.hero-image {
+    width: 500px;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+    border-radius: 8px;
+}
+
+/* INFO SECTION */
+.info {
+    text-align: center;
+    padding: 60px 200px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 150px;
+    text-align: center;
+}
+
+/* FIX FOR CARD IMAGES */
+.card-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+    border-radius: 10px;
+    margin: 0 auto 10px auto;
+}
+
+/* QUOTE */
+.quote {
+    background: #E5E7EB;
+    padding: 100px 300px;
+}
+
+.quote .text {
+    font-size: 24px;
+    font-style: italic;
+}
+
+.quote .author {
+    text-align: right;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* CTA */
+.cta {
+    padding: 80px 200px;
+}
+
+.cta-banner {
+    background: #3882F6;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 60px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.cta button {
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+    background: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
